@@ -1,0 +1,156 @@
+body{
+
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+
+}
+#space_global{
+
+    height: 560px;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 6px;
+
+}
+
+.showcalculo1{
+
+    width: 55%;
+    height: 30px;
+    margin-left: 5%;
+    margin-right: 20px;
+    font: bold 15pt monospace;
+    color: rgb(95, 95, 95);
+    border: 0;
+    border-radius: 0;
+
+}
+.showresult1{
+
+    width: 30%;
+    height: 50px; 
+    background-color:  rgb(226, 223, 223);
+    font: bold 20pt monospace;
+    color: black;
+    text-align: center;
+    border: 0;
+    border-radius: 0;
+
+}
+
+.spacenumbers{
+
+    width: 30%;
+    height: 30px;
+    font: bold 20pt monospace;
+    color: black;
+    text-align: center;
+    border: 0;
+    border-radius: 0;
+
+}
+
+
+#line_0{
+
+    width: 80%;
+    height: 35px;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 10% ;
+    
+}
+#result{
+
+    width: 80%;
+    height: 52px;
+    margin-left: 10%;
+    background-color: white ;
+    margin-top:20px;
+    margin-bottom: 30px;
+
+}
+
+.clearOperations{
+
+    height: 60px;
+    width: 60px;
+    font: bolder 30pt monospace ;
+    border: 0;
+    border-radius: 0;
+    background-color: rgb(255, 158, 158);
+    margin: 5px 5px 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}.clearOperations:hover{
+
+    background-color: rgb(241, 85, 85);
+    transition: 1s ease-in-out;
+
+
+}
+
+.numbers{
+
+    height: 60px;
+    width: 60px;
+    font: bolder 30pt monospace ;
+    border: 0;
+    border-radius: 0;
+    background-color: white;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}.numbers:hover{
+
+    background-color: rgb(121, 119, 119);
+    transition: 1s ease-in-out;
+
+}
+
+.operations{
+
+    height: 60px;
+    width: 60px;
+    font: bolder 30pt monospace ;
+    border: 0;
+    border-radius: 0;
+    background-color: rgb(211, 209, 209);
+    margin: 5px 5px 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}.operations:hover{
+
+    background-color: rgb(124, 124, 124); ;
+    transition: 1s ease-in-out;
+
+}
+
+.igual{
+
+    height: 60px;
+    width: 60px;
+    font: bolder 30pt monospace ;
+    border: 0;
+    border-radius: 0;
+    background-color: rgb(182, 255, 168);
+    margin: 5px 5px 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}.igual:hover{
+
+    background-color:rgb(94, 223, 68) ;
+    transition: 0.7s ease-in-out;
+}
+
+.line{
+
+    width: 100%;
+    height: 70px;
+    text-align: center;
+
+}

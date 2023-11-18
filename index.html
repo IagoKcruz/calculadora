@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+</head> 
+<body>
+    
+    <script> 
+
+            let num = ''; 
+             
+            let operations = '';
+
+            let clear = '';
+    
+    </script>
+
+    <div id="space_global">
+
+    <form>
+        <div id="line_0">
+                 
+                <input type="text" id="number1" class="spacenumbers" readonly>    <input type="text" id="number2" class="spacenumbers" readonly>
+        
+        </div>
+
+        <div id="result">
+
+            <input type="text" class="showcalculo1" id="showcalculo" readonly>   <input type="text" class="showresult1" id="showresult" value=" " readonly>
+
+        </div>
+    </form>
+        <div class="line">
+
+            <input type="button" class="clearOperations" value="C" onclick="clear = 'C', operations = '', clearItems(clear)">
+
+            <input type="button" class="clearOperations" value="CE" onclick="clear = 'CE', clearItems(clear)" >
+
+            <input type="button" class="operations" value="x²"  onclick="operations= 'x²',showOperations(operations)">
+
+            <input type="button" class="operations" value="√"  onclick="operations= '√', radicicao()">
+
+        </div>
+ 
+        <div class="line">
+            
+            <input type="button" class="numbers" value="7" onclick="num = '7',showInput(num)">
+
+            <input type="button" class="numbers" value="8" onclick="num = '8',showInput(num)">
+
+            <input type="button" class="numbers" value="9" onclick="num = '9',showInput(num)">
+
+            <input type="button" class="operations" value="÷" onclick="operations= '÷',showOperations(operations)">
+          
+        </div>
+
+        <div class="line">
+     
+            <input type="button" class="numbers" value="4" onclick="num = '4', showInput(num)">
+
+            <input type="button" class="numbers" value="5" onclick="num = '5', showInput(num)">
+    
+            <input type="button" class="numbers" value="6" onclick="num = '6', showInput(num)">
+    
+            <input type="button" class="operations" value="x" onclick="operations= 'x',showOperations(operations)">  
+     
+        </div>
+
+        <div class="line">
+
+            <input type="button" class="numbers" value="1" onclick="num = '1', showInput(num)">
+
+            <input type="button" class="numbers" value="2" onclick="num = '2', showInput(num)">
+        
+            <input type="button" class="numbers" value="3" onclick="num = '3', showInput(num)">
+        
+            <input type="button" class="operations" value="-"  onclick="operations= '-',showOperations(operations)">  
+
+        </div>
+
+        <div class="line">
+            
+            <input type="button" class="numbers" value="." onclick="num = '.', showInput(num)">
+            
+            <input type="button" class="numbers" value="0" onclick="num = '0', showInput(num)">
+
+            <input type="button" class="igual" value="=" onclick="calculo()">
+        
+            <input type="button" class="operations" value="+" onclick="operations= '+',showOperations(operations)">  
+            
+        </div>
+
+
+    </div>
+</body>
+</html>
